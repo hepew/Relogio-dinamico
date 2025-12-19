@@ -10,6 +10,7 @@ function carregar(){
 
 
     if (hora >= 0 && hora < 12){
+        boa.innerHTML = "Bom Dia!"
         img.src = "fotos/manha.jpg"
         document.body.style.background = '#e2cd9f'
         //BOM DIA
@@ -18,6 +19,7 @@ function carregar(){
         img.src = "fotos/tarde.jpg"
         document.body.style.background = '#b9846f'
     } else{
+        boa.innerHTML = "Boa Noite!"
         img.src = "fotos/noite.jpg"
         document.body.style.background = '#515154'
     }
